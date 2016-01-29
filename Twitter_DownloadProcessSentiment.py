@@ -5,7 +5,7 @@ from textblob import TextBlob
 t = Twitter()
 i = None
 for j in range(3):
-    for tweet in t.search('vcuResearch', start=i, count=30):
+    for tweet in t.search('trump', start=i, count=30):
 
         print tweet.id
         print tweet.name
